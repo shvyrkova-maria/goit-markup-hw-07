@@ -1,0 +1,25 @@
+.contacts {
+  margin-right: 70px;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--txt-color-secondary);
+}
+
+.footer-contacts__email,
+.footer-contacts__phone {
+  color: var(--txt-color-primery);
+}
+
+.footer-contacts__address,
+.footer-contacts__email {
+  margin-bottom: 9px;
+}

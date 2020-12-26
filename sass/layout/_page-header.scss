@@ -1,0 +1,20 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header__logo {
+  margin-right: 94px;
+  color: var(--txt-color-main);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  padding: 24px 0;
+  &__accent {
+    color: var(--txt-color-accent);
+  }
+}
